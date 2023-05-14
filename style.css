@@ -40,3 +40,10 @@
 .btn:hover {
   background-color: #aaa594;
 }
+
+.reflexology {
+  height: 100vh;
+  display: inline-grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: 0.5fr 1.5fr;
+}
