@@ -21,10 +21,18 @@
 
     <link rel="stylesheet" type="text/css" href="general.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+  ></script>
   </head>
   <body>
     <!-- Header -->
-    <!-- <header>
+     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#">Radience</a>
@@ -77,7 +85,7 @@
           </div>
         </div>
       </nav>
-    </header> -->
+    </header>
 
     <!-- Main Content -->
     <main>
@@ -100,10 +108,20 @@
       </section>
 
       <section class="aboutus">
-        <h2>To feel well and healthly is something everyone deserves</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Nostrum dolorem quas inventore quasi consequuntur totam ipsa nobis sint cumque, 
-          quos neque accusamus harum ab, ipsam excepturi vitae modi fuga? Consequatur.</p>
+        <h2>
+          To feel well and healthly <br />
+          is something everyone <br />
+          deserves
+        </h2>
+        <hr class="solid" />
+        <div class="aboutusText">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            dolorem quas inventore quasi consequuntur totam ipsa nobis sint
+            cumque, quos neque accusamus harum ab, ipsam excepturi vitae modi
+            fuga? Consequatur.
+          </p>
+        </div>
       </section>
 
       <section class="reflexology">
@@ -114,8 +132,11 @@
           We know that reflexology was part of Egyptian society as hieroglyphics
           dating back to 2330BC were found in an egyptian pyramid.
         </p>
+        <div>
+          <h2 class="heading-secondary">What is Reflexology?</h2>
+          <hr class="solid" />
+        </div>
 
-        <h2>What is Reflexology?</h2>
         <img
           class="reflex_img"
           src="media/img/reflexology-foot-transpasrent.png"
@@ -136,8 +157,8 @@
       </section>
 
       <section class="benefits">
-        <h2>benefits Of Reflexology</h2>
-        <div class="container">
+        <h2>Benefits Of Reflexology</h2>
+        <div class="benefitsContainer">
           <ul>
             <li>Boosts Immune System</li>
             <li>Induce deep relaxation</li>
@@ -149,11 +170,36 @@
             <li>Aid in injury recuperation</li>
           </ul>
           <img
-          class="reflex_img"
-          src="media/img/heroplaceholder.png"
-          alt="Shoes"
-        />
-
+            class="reflex_img"
+            src="media/img/heroplaceholder.png"
+            alt="Shoes"
+          />
+        </div>
+      </section>
+      <section class="contact">
+        <div class="d-flex justify-content-between w-100 h-100">
+          <div
+            class="contact-details"
+          >
+              <h2 class="heading-secondary">Connect With XYZ</h2>
+              <address class="contacts">
+                <a class="footer-link" href="tel:415-201-6370">Phone: 07463555273</a
+                ><br />
+                <a class="footer-link" href="mailto:joshua_sonde@icloud.com"
+                  >Email: XYZ@Radiance.com</a
+                >
+              </p>
+            </address>
+            <div class="social">
+              <p>Social</p>
+              <hr class="solid" />
+              <ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+                >
+                <ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                  >
+            </div>
+          </div>
+          <img class="heroimg" src="media/img/heroimg.jpg" alt="Shoes" />
         </div>
       </section>
     </main>

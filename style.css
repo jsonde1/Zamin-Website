@@ -1,7 +1,14 @@
+/* Navigation section */
 .navbar {
-  background-color: rgba(241, 232, 203);
+  background-color: rgba(241, 232, 203, 0.664);
   font-size: 2rem;
+  position: fixed;
+  width: 100%;
 }
+
+/**************************/
+/* HERO SECTION */
+/**************************/
 
 /* Styling for the hero section */
 .hero {
@@ -33,21 +40,91 @@
 }
 .hero img {
 }
+
 .btn {
-  background-color: #dbd4bf;
+  background-color: none;
+  border: 2px solid #dbd4bf;
 }
 
 .btn:hover {
   background-color: #aaa594;
 }
 
+/**************************/
+/* REFLEXOLOGY SECTION */
+/**************************/
 .reflexology {
   height: 100vh;
   display: inline-grid;
+  column-gap: 10rem;
   grid-template-columns: repeat(2, 0.5fr);
   grid-template-rows: 0.5fr 1.5fr;
+  padding: 10rem;
 }
+
+/**************************/
+/* ABOUT US SECTION */
+/**************************/
 
 .aboutus {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10rem 40rem;
+}
+
+.aboutus h2 {
+  font-size: 5rem;
+}
+
+.aboutus p {
+  font-size: 3rem;
+}
+.aboutusText {
+  width: 70%;
+}
+
+/**************************/
+/* BENEFITS SECTION */
+/**************************/
+.benefits {
+  padding: 0 20rem;
+}
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.benefitsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/**************************/
+/* CONTACT SECTION */
+/**************************/
+
+.contact {
+  height: 100vh;
+  font-size: 2rem;
+}
+.contact-details {
+  padding: 0 20rem;
+  align-self: center;
+}
+.social {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #000;
+  border-radius: 2rem;
+}
+.social p {
+  margin: 0;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
 }
