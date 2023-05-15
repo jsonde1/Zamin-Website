@@ -29,7 +29,7 @@
   align-self: center;
 }
 .title {
-  margin-bottom: 40rem;
+  margin-bottom: 20%;
 }
 .hero img {
 }
@@ -46,4 +46,8 @@
   display: inline-grid;
   grid-template-columns: repeat(2, 0.5fr);
   grid-template-rows: 0.5fr 1.5fr;
+}
+
+.aboutus {
+  height: 100vh;
 }
