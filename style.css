@@ -59,7 +59,10 @@
   column-gap: 10rem;
   grid-template-columns: repeat(2, 0.5fr);
   grid-template-rows: 0.5fr 1.5fr;
-  padding: 10rem;
+  padding-left: 10rem;
+}
+.reflexology p {
+  font-size: 2rem;
 }
 
 /**************************/
@@ -89,16 +92,30 @@
 /* BENEFITS SECTION */
 /**************************/
 .benefits {
-  padding: 0 20rem;
+  height: 100vh;
+  padding: 0 10rem;
 }
 .benefits h2 {
   text-align: center;
   margin-bottom: 10rem;
 }
+.benefits li {
+  font-size: 2rem;
+  margin: 1rem;
+}
 
 .benefitsContainer {
   display: flex;
+  gap: 3rem;
   justify-content: space-between;
+  align-items: center;
+}
+.benefitsContainer p {
+  font-size: 1.5rem;
+}
+
+.benefit_img {
+  width: 60rem;
 }
 
 /**************************/
