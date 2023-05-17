@@ -7,38 +7,35 @@
 }
 
 /**************************/
-/* HERO SECTION */
+/* home SECTION */
 /**************************/
 
-/* Styling for the hero section */
-.hero {
+/* Styling for the home section */
+.home {
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(0, 0, 0);
   text-align: center;
 }
 
-/* Styling for the heading inside the hero section */
-.hero h1 {
+/* Styling for the heading inside the home section */
+.home h1 {
   font-weight: bold;
   text-shadow: 2px 2px #e2cd8e;
   font-size: 10rem;
 }
 
-.hero p {
+.home p {
   font-size: 5rem;
 }
 
-.left-hero {
-  width: 100%;
-  align-self: center;
-}
 .title {
-  margin-bottom: 20%;
+  margin: 6rem auto;
 }
-.hero img {
+.home img {
+  height: 30rem;
+  width: 100%;
 }
 
 .btn {
