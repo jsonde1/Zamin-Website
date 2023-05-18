@@ -31,16 +31,14 @@
 }
 
 .title {
-  margin: 6rem auto;
+  margin-top: 5rem;
 }
 .home img {
-  height: 30rem;
   width: 100%;
 }
 
 .btn {
-  background-color: none;
-  border: 2px solid #dbd4bf;
+  background-color: #dbd4bf;
 }
 
 .btn:hover {
