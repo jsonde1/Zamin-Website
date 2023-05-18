@@ -17,8 +17,6 @@
 /* Styling for the home section */
 .home {
   height: 100vh;
-}
-.home_container {
   width: 70%;
   margin: 0 auto;
   justify-content: center;
@@ -88,7 +86,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10rem 40rem;
+  padding: 10rem 20rem;
 }
 
 .aboutus h2 {
@@ -97,9 +95,6 @@
 
 .aboutus p {
   font-size: 3rem;
-}
-.aboutusText {
-  width: 70%;
 }
 
 /**************************/
@@ -130,6 +125,61 @@
 
 .benefit_img {
   width: 60rem;
+}
+
+.section-testimonials {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
 
 /**************************/
