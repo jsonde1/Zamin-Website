@@ -292,7 +292,8 @@ span {
 }
 
 .benefit_img {
-  width: 60rem;
+  width: 40rem;
+  border-radius: 10%;
 }
 
 .section-testimonials {
