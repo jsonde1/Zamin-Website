@@ -26,6 +26,7 @@
     nomodule=""
     src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
   ></script>
+  <script defer src="js/script.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -51,32 +52,17 @@
                   >Home <span class="sr-only">(current)</span></a
                 >
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Shop
-                </a>
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a class="dropdown-item" href="#">Category 1</a>
-                  <a class="dropdown-item" href="#">Category 2</a>
-                  <a class="dropdown-item" href="#">Category 3</a>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#reflexology">Reflexology</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#testimonials">Testimonials/Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
             <button class="btn">Book Now</button>
@@ -99,7 +85,8 @@
               <img class="home_img fade-in" src="media/img/heroplaceholder.png" alt="Shoes" />
       </section>
 
-      <section class="aboutus">
+      <section class="aboutus" id="aboutus">
+        <div class="aboutus_container">
         <h2>
           To feel well and healthy 
           is something everyone
@@ -107,44 +94,36 @@
         </h2>
         <hr class="solid" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            dolorem quas inventore quasi consequuntur totam ipsa nobis sint
-            cumque, quos neque accusamus harum ab, ipsam excepturi vitae modi
-            fuga? Consequatur.
+            Here at Radience we seek to promote holistic healing through
+            a range of reflexology and massage treatments, carried out by 
+            professionals with over 30 years experience. We are a treatment
+            centre catered for women. **
           </p>
+          <span class="top"></span>
+          <span class="right"></span>
+          <span class="bottom"></span>
+          <span class="left"></span>
+        </div>
+        </div>
       </section>
 
-      <section class="reflexology">
-        <p>
-          Reflexology is a non invasive health therapy that can help be
-          effective in promoting healing and well being. The origins of
-          reflexology can be traced back around 5000 years to Egypt and China.
-          We know that reflexology was part of Egyptian society as hieroglyphics
-          dating back to 2330BC were found in an egyptian pyramid.
-        </p>
-        <div>
-          <h2 class="heading-secondary">What is Reflexology?</h2>
+      <section class="reflexology" id="reflexology">
+        <div class="reflexology-text">
+        <div class="d-flex flex-column align-items-center mb-3">
+          <h2 class="heading-secondary mb-1 animate-scale-in">What is Reflexology?</h2>
           <hr class="solid" />
         </div>
-
-        <img
-          class="reflex_img"
-          src="media/img/reflexology-foot-transpasrent.png"
-          alt="Shoes"
-        />
-        <p>
-          Reflexology is much broader than a foot massage, despite its
-          appearance. Based on the notion of Qi, (pronounced "chee") the body's
-          various pathways and zones are connected by an invisible life force.
-          According to the notion, if your Qi is disturbed or blocked due to
-          stress, injury, or sickness your body will become unbalanced, unable
-          to cure itself, and pain may start to appear. Reflexologist seek to
-          improve the flow of energy by stimulating the corresponding pressure
-          point in the hands and feet to restore balance and flow of Qi. This
-          allows a deep state of relaxation which encourages the body to heal
-          itself.
-        </p>
+        
+          <p>
+            Reflexology is a non-invasive health therapy that can be effective in promoting healing and well-being. The origins of reflexology can be traced back around 5000 years to Egypt and China. We know that reflexology was part of Egyptian society as hieroglyphics dating back to 2330 BC were found in an Egyptian pyramid.
+          </p>
+          <img class="reflex_img" src="media/img/reflexology-foot-transpasrent.png" alt="Shoes" />
+          <p>
+            Reflexology is much broader than a foot massage, despite its appearance. Based on the notion of Qi (pronounced "chee"), the body's various pathways and zones are connected by an invisible life force. According to this notion, if your Qi is disturbed or blocked due to stress, injury, or sickness, your body will become unbalanced, unable to cure itself, and pain may start to appear. Reflexologists seek to improve the flow of energy by stimulating the corresponding pressure points in the hands and feet to restore balance and the flow of Qi. This allows for a deep state of relaxation that encourages the body to heal itself.
+          </p>
+        </div>
       </section>
+      
 
       <section class="benefits">
         <h2 class="heading-secondary">Benefits Of Reflexology</h2>
@@ -163,7 +142,7 @@
           </ul>
           <img
             class="benefit_img"
-            src="media/img/homeplaceholder.png"
+            src="media/img/reflexology_benefits.jpg"
             alt="Shoes"
           />
         </div>
@@ -235,91 +214,79 @@
           <figure class="gallery-item">
             <img
               src="media/img/gallery/gallery-1.webp"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
             <!-- <figcaption>Caption</figcaption> -->
           </figure>
           <figure class="gallery-item">
             <img
               src="media/img/gallery/gallery-2.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="media/img/gallery/gallery-3.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="media/img/gallery/gallery-4.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="media/img/gallery/gallery-5.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="media/img/gallery/gallery-6.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="img/gallery/gallery-7.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="img/gallery/gallery-8.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="img/gallery/gallery-9.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="img/gallery/gallery-10.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="img/gallery/gallery-11.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
           <figure class="gallery-item">
             <img
               src="img/gallery/gallery-12.jpg"
-              alt="Photo of beautifully
-            arranged food"
+              alt="Photo of female recieving massage treatment"
             />
           </figure>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="d-flex justify-content-between w-100 h-100">
           <div
             class="contact-details"
