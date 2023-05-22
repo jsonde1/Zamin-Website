@@ -18,3 +18,10 @@ function handleScroll() {
 }
 
 window.addEventListener("scroll", handleScroll);
+
+Calendly.initInlineWidget({
+  url: "https://calendly.com/joshuasonde",
+  parentElement: document.getElementById("calendly"),
+  prefill: {},
+  utm: {},
+});
