@@ -65,7 +65,7 @@
                 <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
-            <button class="btn" onclick="href='#booking'">Book Now</button>
+            <button class="btn" onclick="location.href='/booking.html'">Book Now</button>
           </div>
         </div>
       </nav>
@@ -80,8 +80,8 @@
             <div>
               <p>Stimulating healing through Reflexology and Massage</p>
               <div class="mt-5">
-              <button class="btn btn-lm mr-5">Learn More</button>
-              <button class="btn">Book Now</button>
+              <button class="btn btn-lm mr-5" onclick="location.href='#aboutus'">Learn More</button>
+              <button class="btn" onclick="location.href='/booking.html'">Book Now</button>
             </div>
             </div>
             </div>
@@ -98,7 +98,7 @@
         </h2>
         <hr class="solid" />
           <p>
-          <span>H</span>ere at <span>Radience</span> we seek to promote <span>holistic healing</span> through
+          <span>H</span>ere at <span>Radiance</span> we seek to promote <span>holistic healing</span> through
             a range of reflexology and massage treatments, carried out by 
             professionals with over <span class="gradient-animation">30 years experience</span>. We are a treatment
             centre catered for women.
@@ -146,7 +146,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam fuga cupidita
           </p>
           <img class="reflex_img" src="media/img/reflexology-foot-transpasrent.png" alt="Shoes" />
           <p>
-            <span>R</span>eflexology is much broader than a foot massage, despite its appearance. Based on the notion of <span class="gradient-animation">Qi</span> (pronounced "chee"), the body's various pathways and zones are connected by an invisible life force. According to this notion, if your Qi is disturbed or blocked due to stress, injury, or sickness, your body will become <span class="span_bad">unbalanced</span>, unable to cure itself, and <span class="span_bad">pain</span> may start to appear. Reflexologists seek to improve the flow of energy by stimulating the corresponding pressure points in the hands and feet to restore balance and the flow of Qi. This allows for a deep state of <span>relaxation</span> that encourages the body to <span>heal</span> itself.
+            <span>R</span>eflexology is much broader than a foot massage, despite its appearance. Based on the notion of <span class="gradient-animation">Qi</span> (pronounced "chee"), the body's various pathways and zones are connected by an invisible <span class="gradient-animation">life</span> force. According to this notion, if your Qi is disturbed or blocked due to stress, injury, or sickness, your body will become unbalanced, unable to cure itself, and pain may start to appear. Reflexologists seek to improve the flow of <span class="gradient-animation">energy</span> by stimulating the corresponding pressure points in the hands and feet to restore balance and the flow of Qi. This allows for a deep state of <span>relaxation</span> that encourages the body to <span>heal</span> itself.
           </p>
         </div>
       </section>
@@ -177,6 +177,17 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam fuga cupidita
             alt="Shoes"
           />
         </div>
+      </section>
+      <section class="massages">
+
+          <h2 class="heading-secondary">Massages</h2>
+          <div class="massage_buttons">
+            <button class="btn btn-lm " onclick="location.href='/sports_massage.html'" type="button">Sports Massage</button>
+            <button class="btn btn-lm " onclick="location.href='/sports_massage.html'" type="button">Deep Tissue</button>
+            <button class="btn btn-lm " onclick="location.href='/sports_massage.html'" type="button">Sports Massage</button>
+            <button class="btn btn-lm " onclick="location.href='/sports_massage.html'" type="button">Sports Massage</button>
+            <button class="btn btn-lm " onclick="location.href='/sports_massage.html'" type="button">BLA Massage</button>
+          </div>
       </section>
       <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
@@ -316,18 +327,13 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam fuga cupidita
           </figure>
         </div>
       </section>
-      <section class="booking d-flex flex-column" id="booking">
-        <h2 class="heading-secondary">Book NOW!</h2>
-        <div class="calendly"id="calendly">
-          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-        </div>
-      </section>
+
       <section class="contact" id="contact">
         <div class="d-flex justify-content-between w-100 h-100">
           <div
             class="contact-details"
           >
-              <h2 class="heading-secondary">Connect With XYZ</h2>
+              <h2 class="heading-secondary">Connect With Us</h2>
               <address class="contacts">
                 <a class="footer-link" href="tel:415-201-6370">Phone: 07463555273</a
                 ><br />
@@ -345,6 +351,8 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam fuga cupidita
                   >
             </div>
           </div>
+          <img src="media/img/contact.jpg" width="50%" alt="Shoes" />
+
         </div>
       </section>
     </main>

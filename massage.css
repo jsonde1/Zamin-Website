@@ -1,0 +1,62 @@
+.main {
+  height: 100vh;
+  padding: 10rem 10rem;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+img {
+  opacity: 60%;
+}
+
+.img_overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+.content p {
+  margin-bottom: 0;
+  border-bottom: 2px wheat solid;
+}
+
+.massage_text {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.faq {
+  height: 100vh;
+  text-align: center;
+}
+
+.vertical_line {
+  border-left: 3px solid rgb(0, 0, 0);
+  margin: 0 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.expanded {
+  max-height: none;
+}
+.slide-down {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in;
+}
+.slide-up {
+  max-height: 200px;
+}

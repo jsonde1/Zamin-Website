@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Radience</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="massage.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <img class="navbar_logo" src="media/img/radiance_t.png" alt="Shoes" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#reflexology"
+                  >Reflexology</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#testimonials"
+                  >Testimonials/Gallary</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#contact">Contact Us</a>
+              </li>
+            </ul>
+            <button class="btn" onclick="location.href='/booking.html'">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section class="main">
+        <div class="container">
+          <img
+            src="/media/img/img_snow_wide.jpg"
+            alt="Snow"
+            style="width: 100%"
+          />
+          <div class="img_overlay">
+            <h1>Sports Massage</h1>
+            <p>
+              Excellent for easing muscle soreness. Regular sport massage
+              sessions will increase joint mobility and flexibility, and reduce
+              the risk of injury during exercise
+            </p>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="container massage_text">
+          <p>
+            Often taken by those actively engaged in hard physical work and
+            activity, or regular sport (including all top sports people). This
+            deeper muscle massage is typically associated with the prevention
+            and treatment of injury, strains, and sprains.
+          </p>
+          <div class="vertical_line"></div>
+          <p>
+            Our therapists will help by concentrating your treatment to suit
+            your particular body needs. Sports massage can improve mental
+            alertness, muscle pain, and is also an excellent follow on from
+            specialist work like physiotherapy or osteopathy.
+          </p>
+        </div>
+      </section>
+
+      <section class="faq">
+        <h2 class="heading-secondary">Frequenly Asked Questions</h2>
+        <div class="container d-flex flex-column">
+          <div class="content">
+            <button class="btn btn-lm" onclick="toggleContent()">
+              Starting your session
+            </button>
+            <p class="text_1 slide-down">
+              Quisque at libero mauris. Nunc venenatis sem a efficitur
+              hendrerit. Nam consequat neque vitae purus fermentum, ac venenatis
+              ipsum malesuada. Mauris suscipit felis a nulla facilisis, at
+              efficitur nulla fringilla. Sed nec suscipit nisi.
+            </p>
+            <button class="btn btn-lm" onclick="toggleContent2()">
+              During your massage
+            </button>
+            <p class="text_2 slide-down">Quisque afdsdfs.</p>
+            <button class="btn btn-lm" onclick="toggleContent3()">
+              Ensuring your well-being
+            </button>
+            <p class="text_3 slide-down">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero
+              repellendus iusto? Ipsum quisquam expedita nam debitis porro
+              quibusdam necessitatibus ipsam veniam. Ducimus facere, odit quis
+              aspernatur tempore eum debitis..
+            </p>
+            <button class="btn btn-lm" onclick="toggleContent4()">
+              Best Treatment
+            </button>
+            <p class="text_4 slide-down">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              ipsum, sint voluptas velit maxime ipsa reiciendis quod, placeat,
+              quibusdam quo fugit est quaerat officia saepe ex consectetur neque
+              aut labore!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+  </body>
+</html>

@@ -25,3 +25,55 @@ Calendly.initInlineWidget({
   prefill: {},
   utm: {},
 });
+
+function toggleContent() {
+  var content = document.querySelector(".content");
+  var button = document.querySelector("button");
+  var paragraph = document.querySelector(".text_1");
+
+  content.classList.toggle("expanded");
+  button.textContent = content.classList.contains("expanded")
+    ? "Read Less"
+    : "Read More";
+
+  paragraph.classList.toggle("slide-up");
+}
+
+function toggleContent2() {
+  var content = document.querySelector(".content");
+  var button = document.querySelector("button");
+  var paragraph = document.querySelector(".text_2");
+
+  content.classList.toggle("expanded");
+  button.textContent = content.classList.contains("expanded")
+    ? "Read Less"
+    : "Read More";
+
+  paragraph.classList.toggle("slide-up");
+}
+
+function toggleContent3() {
+  var content = document.querySelector(".content");
+  var button = document.querySelector("button");
+  var paragraph = document.querySelector(".text_3");
+
+  content.classList.toggle("expanded");
+  button.textContent = content.classList.contains("expanded")
+    ? "Read Less"
+    : "Read More";
+
+  paragraph.classList.toggle("slide-up");
+}
+
+function toggleContent4() {
+  var content = document.querySelector(".content");
+  var button = document.querySelector("button");
+  var paragraph = document.querySelector(".text_4");
+
+  content.classList.toggle("expanded");
+  button.textContent = content.classList.contains("expanded")
+    ? "Read Less"
+    : "Read More";
+
+  paragraph.classList.toggle("slide-up");
+}

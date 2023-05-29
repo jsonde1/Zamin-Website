@@ -68,7 +68,9 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
+nav {
+  z-index: 999;
+}
 body {
   font-family: "Abel", sans-serif;
   line-height: 1;
@@ -87,6 +89,10 @@ body {
 hr.solid {
   border-top: 2px solid #000000;
   width: 10%;
+}
+
+h1 {
+  font-size: 8rem;
 }
 
 .heading-secondary {

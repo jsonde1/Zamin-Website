@@ -411,11 +411,26 @@ p span {
   height: 100%;
 }
 /**************************/
+/* MASSAGE SECTION */
+/**************************/
+.massages {
+  text-align: center;
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.massages button {
+  border-radius: 2rem;
+}
+.massage_buttons {
+  display: flex;
+  justify-content: space-around;
+}
+/**************************/
 /* CONTACT SECTION */
 /**************************/
 
 .contact {
-  min-height: 100vh;
+  height: 100vh;
   font-size: 2rem;
 }
 .contact-details {
