@@ -38,11 +38,6 @@ p {
   text-align: center;
 }
 
-.vertical_line {
-  border-left: 3px solid rgb(0, 0, 0);
-  margin: 0 2rem;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -59,4 +54,30 @@ p {
 }
 .slide-up {
   max-height: 200px;
+}
+.addons {
+  text-align: center;
+  margin-bottom: 10rem;
+  background-color: #e2cd8e;
+}
+.addon_items {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2cd8e;
+  padding: 3rem 0;
+}
+.addon_item {
+  position: relative;
+}
+
+.addon_item p {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  background-color: #e2cd8e;
+  margin-bottom: auto;
+}
+.addon_img {
+  width: 40rem;
 }

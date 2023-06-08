@@ -1,0 +1,181 @@
+/**************************/
+/* ABOUT US SECTION */
+/**************************/
+
+.aboutus {
+  min-height: 100vh;
+  padding: 8rem 8rem;
+  display: flex;
+  justify-content: center;
+}
+.aboutus_container {
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+  border-top: 4px solid #e2cd8e73;
+  border-right: 4px solid #cbba8081;
+  border-bottom: 4px solid #e2cd8e8c;
+  border-left: 4px solid #e5d29980;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 5rem;
+}
+
+span {
+  position: absolute;
+  border-radius: 100vmax;
+}
+
+h2 span {
+  position: static;
+  font-size: 12rem;
+}
+
+p span {
+  position: static;
+  color: #83754c;
+  font-size: 4rem;
+}
+
+.reflexology span {
+  position: static;
+  color: #83754c;
+  font-size: 4rem;
+}
+
+.top {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(90deg, transparent 50%, #e2cd8e73, #e2cd8e);
+}
+
+.bottom {
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #e2cd8e, #e2cd8e73, transparent 50%);
+}
+
+.right {
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(180deg, transparent 30%, #cbba8081, #cbba80);
+}
+
+.left {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(180deg, #e5d299, #e5d29980, transparent 70%);
+}
+
+.top {
+  animation: animateTop 3s ease-in-out infinite;
+}
+
+.bottom {
+  animation: animateBottom 3s ease-in-out infinite;
+}
+
+.right {
+  animation: animateRight 3s ease-in-out infinite;
+}
+
+.left {
+  animation: animateLeft 3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
+
+.aboutus h2 {
+  font-size: 5rem;
+}
+
+.aboutus p {
+  font-size: 3rem;
+}
+
+/**************************/
+/* FACEOFBRAND SECTION */
+/**************************/
+
+.faceofbrand {
+  min-height: 80vh;
+}
+.faceofbrand_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 5rem;
+  font-size: 3rem;
+}

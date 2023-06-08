@@ -1,0 +1,95 @@
+/**************************/
+/* REFLEXOLOGY SECTION */
+/**************************/
+span {
+  position: static;
+}
+.reflexology {
+  padding-left: 5rem;
+}
+.reflex_main {
+  height: 100vh;
+}
+.reflexology {
+  text-align: center;
+  padding: 40px;
+}
+
+.reflexology-text {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.reflexology p {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.reflexology-text h2 {
+  margin-bottom: 10px;
+  opacity: 0; /* Initially hide the heading */
+  font-size: 12rem;
+}
+
+.reflexology-text hr.solid {
+  border-top: 2px solid #333;
+  margin-bottom: 30px;
+}
+
+.reflex_img {
+  max-width: 50rem;
+}
+
+.animate-scale-in {
+  animation: scaleIn 1s ease-in-out forwards; /* Apply the animation */
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/**************************/
+/* BENEFITS SECTION */
+/**************************/
+.benefits {
+  min-height: 100vh;
+  padding: 0 10rem;
+}
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.benefits li {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.benefitsContainer {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.benefitsContainer p {
+  font-size: 1.5rem;
+}
+.benefitsContainer li {
+  font-size: 2rem;
+}
+.benefitsContainer ol {
+  list-style-image: url("media/img/massage1.png");
+  font-size: 6rem;
+}
+
+.benefit_img {
+  width: 50rem;
+  border-radius: 10%;
+}
