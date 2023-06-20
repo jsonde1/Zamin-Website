@@ -1,12 +1,16 @@
 /**************************/
 /* MASSAGE SECTION */
 /**************************/
-.massages {
-  height: 100vh;
-  text-align: center;
-  padding: 4.8rem 0;
+.main {
   background-color: rgba(241, 232, 203, 0.6);
   font-size: 2rem;
+}
+.reflexology_services {
+  text-align: center;
+  padding: 4.8rem 0;
+}
+.massages {
+  text-align: center;
 }
 
 .massages button {
@@ -20,6 +24,17 @@
   align-content: space-evenly;
   align-items: center;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.reflex_treatments {
+  min-height: 80vh;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }

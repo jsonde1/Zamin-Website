@@ -77,3 +77,33 @@ function toggleContent4() {
 
   paragraph.classList.toggle("slide-up");
 }
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("carousel-slide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change slide every 3 seconds
+}
+
+var prevButton = document.querySelector(".carousel-prev");
+var nextButton = document.querySelector(".carousel-next");
+
+prevButton.addEventListener("click", function () {
+  slideIndex--;
+  showSlides();
+});
+
+nextButton.addEventListener("click", function () {
+  slideIndex++;
+  showSlides();
+});
