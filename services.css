@@ -5,7 +5,7 @@
   background-color: rgba(241, 232, 203, 0.6);
   font-size: 2rem;
 }
-.reflexology_services {
+.main_treatment {
   text-align: center;
   padding: 4.8rem 0;
 }
@@ -46,4 +46,12 @@
 
 .massage_buttons p {
   width: 80%;
+}
+
+.facials {
+  text-align: center;
+  padding: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
