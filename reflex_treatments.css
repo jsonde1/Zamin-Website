@@ -59,6 +59,10 @@ main#carousel {
   --position: 1;
   pointer-events: none;
 }
+.reflexology_treatments {
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
 
 div.item {
   position: absolute;

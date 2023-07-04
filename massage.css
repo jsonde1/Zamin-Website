@@ -33,6 +33,10 @@ p {
   display: flex;
 }
 
+.massage_img {
+  border-radius: 5%;
+}
+
 .faq {
   height: 100vh;
   text-align: center;

@@ -60,7 +60,7 @@
                 <a class="nav-link" href="/Zamin-Website/reflexology.html">Reflexology</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Zamin-Website/services.html">Massages</a>
+                <a class="nav-link" href="/Zamin-Website/services.html">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#testimonials">Testimonials/Gallary</a>
@@ -69,7 +69,7 @@
                 <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
-            <button class="btn" onclick="location.href='/Zamin-Website/booking.html'">Book Now</button>
+           <button class="btn" onclick="location.href='#home'">Book Now</button>
           </div>
         </div>
       </nav>
@@ -77,15 +77,16 @@
 
     <!-- Main Content -->
     <main>
-      <section class="home d-flex align-items-center">
+      <section class="home d-flex align-items-center" id="home">
         
             <div class="left_hero">
             <img class="logo_main" src="media/img/radiance_t.png" alt="Shoes" />
             <div>
               <p>Stimulating healing through Reflexology and Massage</p>
-              <div class="mt-5">
+              <div class="d-flex justify-content-center mt-5">
               <button class="btn btn-lm mr-5" onclick="location.href='#massages'">Learn More</button>
-              <button class="btn" onclick="location.href='/booking.html'">Book Now</button>
+             <!--  <button class="btn" onclick="location.href='/booking.html'">Book Now</button> -->
+             <script type="text/javascript" src="https://booksy.com/widget/code.js?id=111817&country=gb&lang=en"></script>
             </div>
             </div>
             </div>
@@ -93,7 +94,9 @@
       </section>
       <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
-          <h2 class="heading-secondary">Testimonials</h2>
+          <h2 class="heading-secondary mb-5">Testimonials
+            <hr class="solid" />
+          </h2>
           <div class="testimonials">
             <figure class="testimonial">
               <img
@@ -102,11 +105,11 @@
                 src="media/img/customers/Jackie.jpg"
               />
               <blockquote class="testimonial-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Inventore minima alias sunt animi nostrum ad dicta et, 
-                vitae voluptate ipsam eligendi quas rem nemo
+                I saw Nazira for reflexology when I was nearing my due date with my first daughter. I was in pain , exhausted and desperate for reassurance. 
+                Nazira listened with real attention, was professional throughout and calm beyond measure. 
+                I left feeling relaxed, positive and empowered-the most beautiful and unexpected bonus to the treatment . I would highly recommend Nazira.
               </blockquote>
-              <p class="testimonial-name">&mdash; Jackie Bryson</p>
+              <p class="testimonial-name">&mdash; Azra Hassanali</p>
             </figure>
 
             <figure class="testimonial">
@@ -116,11 +119,10 @@
                 src="media/img/customers/Mary-Anne.jpg"
               />
               <blockquote class="testimonial-text">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Assumenda fugiat aspernatur accusamus ipsa esse tempore similique 
-               expedita sint dicta earum!
+                I have known Nazira since 1998 and have had many reflexology treatments with her. Some for specific ailments, others just for general wellbeing. 
+                Because of these regular sessions I have not suffered menopause. If I could I would have reflexology everyday with Nazira. Thank you for all the sessions over the years, thank you for your friendship and thank you for being you.
               </blockquote>
-              <p class="testimonial-name">&mdash; Mary-Anne Hadley</p>
+              <p class="testimonial-name">&mdash; Mala</p>
             </figure>
 
             <figure class="testimonial">
@@ -235,7 +237,9 @@
           <div
             class="contact-details"
           >
-              <h2 class="heading-secondary">Connect With Us</h2>
+              <h2 class="heading-secondary mb-5">Connect With Us
+                <hr class="solid" />
+              </h2>
               <address class="contacts">
                 <a class="footer-link" href="tel:415-201-6370">Phone: 07968281208</a
                 ><br />
