@@ -6,7 +6,10 @@
   font-size: 2rem;
 }
 .main_treatment {
-  padding: 6.4rem 9.6rem;
+  padding: 4.8rem;
+  display: flex;
+  flex: 1 1 0px;
+  min-height: 100vh;
 }
 
 .massages {
@@ -29,7 +32,6 @@
   grid-row-gap: 20px;
 }
 .reflex_treatments {
-  min-height: 70vh;
   display: flex;
   justify-content: space-evenly;
 }
