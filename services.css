@@ -44,13 +44,47 @@
   object-fit: cover;
   width: 30%;
 }
-
 .massage_buttons p {
   width: 80%;
 }
 .addons {
   padding: 2.4rem 0;
 }
+.addon_item {
+  position: relative;
+  overflow: hidden;
+}
+.hotstoneaddon::after,
+.finaltouchaddon::after {
+  content: "£15";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: rgba(241, 232, 203, 0.6);
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.aromatherapyaddon::after {
+  content: "£10";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: rgba(241, 232, 203, 0.6);
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
 .facials {
   text-align: center;
   display: flex;
