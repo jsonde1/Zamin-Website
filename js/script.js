@@ -1,3 +1,17 @@
+const btnNavEL = document.querySelector(".btn-mobile-nav");
+const headerEL = document.querySelector(".header");
+btnNavEL.addEventListener("click", function () {
+  headerEL.classList.toggle("nav-open");
+});
+
+const allLinks = document.querySelectorAll("a:link");
+allLinks.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    if (link.classList.contains("main-nav-link"))
+      headerEL.classList.toggle("nav-open");
+  });
+});
+
 function isElementInViewport(element) {
   const rect = element.getBoundingClientRect();
   return (

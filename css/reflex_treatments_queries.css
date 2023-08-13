@@ -1,0 +1,8 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+.massage_text {
+  flex-direction: column;
+  gap: 2rem;
+}
