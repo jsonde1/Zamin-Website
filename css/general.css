@@ -76,7 +76,7 @@ body {
   line-height: 1;
   font-weight: 400;
   background-color: #f3ecd4;
-  background-image: url("media/img/hero_bgroud.jpg");
+  background-image: url("/media/img/hero_bgroud.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
