@@ -225,6 +225,12 @@
 /**************************/
 
 @media (max-width: 34em) {
+  body {
+    background-image: url("../media/img/iphone_bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .aboutus h2 {
     font-size: 3rem;
   }
@@ -310,6 +316,13 @@
   .addon_items {
     flex-direction: column !important;
     gap: 2rem;
+  }
+
+  .footer-col p {
+    font-size: 1rem;
+  }
+  .footer-col {
+    justify-content: space-between;
   }
 }
 

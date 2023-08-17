@@ -40,10 +40,6 @@
   }
   .main_treatment {
     flex-direction: column;
-    gap: 8rem;
-  }
-
-  .massages_buttons {
   }
 
   .hero-img {
@@ -64,27 +60,28 @@
 
 @media (max-width: 34em) {
   .aboutus h2 {
+    font-size: 2rem;
+  }
+  .aboutus {
+    min-height: auto;
+  }
+  .aboutus span {
     font-size: 3rem;
   }
-
-  .home img {
-    width: 100%;
+  .aboutus p {
+    font-size: 2rem;
   }
 
-  .aboutus span {
-    font-size: 5rem;
+  .faceofbrand hr {
+    margin-bottom: 10rem;
+  }
+  .home img {
+    width: 100%;
   }
   .grid {
     row-gap: 4.8rem;
   }
-  .hotstoneaddon::after,
-  .finaltouchaddon::after,
-  .aromatherapyaddon::after {
-    top: 3%;
-    right: 9%;
-    padding: 2rem 2rem;
-    border-radius: 100%;
-  }
+
   .benefit_img {
     width: 30rem;
   }
@@ -109,10 +106,6 @@
   .massage_buttons {
     grid-template-columns: 1fr;
     row-gap: 4.8rem;
-  }
-
-  .heading-secondary {
-    margin-bottom: 0 !important;
   }
 }
 

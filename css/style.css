@@ -213,14 +213,92 @@
 /**************************/
 /* CONTACT SECTION */
 /**************************/
+.footer {
+  border-top: 1px solid #000000;
+  background: #cfbd84;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col p {
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 2fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #a08c50;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
 
 .contact {
   height: 100vh;
   font-size: 2rem;
+  padding: 9.6rem;
 }
 .contact-details {
-  padding: 0 20rem;
-  align-self: center;
+  width: 30%;
+  margin: 20rem auto;
+  text-align: center;
 }
 .social {
   padding: 2rem;
