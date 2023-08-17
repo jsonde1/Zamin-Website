@@ -215,7 +215,7 @@
 /**************************/
 .footer {
   border-top: 1px solid #000000;
-  background: #cfbd84;
+  background: rgba(241, 232, 203, 0.664);
 }
 
 .footer-col {
