@@ -28,7 +28,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: #694400;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -127,6 +127,9 @@
   justify-content: space-between;
   align-items: center;
   gap: 12rem;
+}
+.logo_main {
+  width: 100% !important;
 }
 
 .btn {
