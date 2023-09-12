@@ -65,6 +65,10 @@
   .aboutus {
     min-height: auto;
   }
+  .aboutus_container {
+    gap: 5rem;
+    padding: 3rem;
+  }
   .aboutus span {
     font-size: 3rem;
   }
