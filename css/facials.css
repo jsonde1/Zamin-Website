@@ -1,0 +1,14 @@
+.facialscontainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.facial_img {
+  width: 50%;
+}
+
+.secondaryfacial {
+}
