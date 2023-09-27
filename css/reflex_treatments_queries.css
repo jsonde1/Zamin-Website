@@ -1,8 +1,13 @@
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
-
-.massage_text {
-  flex-direction: column;
-  gap: 2rem;
+@media (max-width: 34em) {
+  .massage_text {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  /*FACIALS PAGE*/
+  .facialscontainer {
+    flex-direction: column;
+  }
 }

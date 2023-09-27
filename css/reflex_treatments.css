@@ -79,28 +79,28 @@ div.item {
 
 div.item:nth-of-type(1) {
   --offset: 1;
-  background-image: url("/media/img/reflexology_treatment/placeholder1.jpeg");
-  background-size: contain;
+  background-image: url("/media/img/reflexology_treatment/hamaanbed1.jpeg");
+  background-size: cover;
 }
 div.item:nth-of-type(2) {
   --offset: 2;
-  background-image: url("/media/img/reflexology_treatment/placeholder2.jpeg");
-  background-size: contain;
+  background-image: url("/media/img/reflexology_treatment/radiance9-16.jpeg");
+  background-size: cover;
 }
 div.item:nth-of-type(3) {
   --offset: 3;
-  background-image: url("/media/img/reflexology_treatment/placeholder3.jpeg");
-  background-size: contain;
+  background-image: url("/media/img/reflexology_treatment/hamaanbed2.jpeg");
+  background-size: cover;
 }
 div.item:nth-of-type(4) {
   --offset: 4;
-  background-image: url("/media/img/reflexology_treatment/placeholder4.jpeg");
-  background-size: contain;
+  background-image: url("/media/img/reflexology_treatment/radianceitems.jpeg");
+  background-size: cover;
 }
 div.item:nth-of-type(5) {
   --offset: 5;
-  background-image: url("media/img/reflexology_treatment/placeholder5.jpeg");
-  background-size: contain;
+  background-image: url("/media/img/reflexology_treatment/radianceroom.jpeg");
+  background-size: cover;
 }
 
 input:nth-of-type(1) {
