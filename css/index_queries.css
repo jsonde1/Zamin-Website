@@ -113,6 +113,10 @@
   .aboutus h2 {
     font-size: 3rem;
   }
+  .home {
+    height: auto;
+    margin-top: 2rem;
+  }
 
   .home img {
     width: 100%;
