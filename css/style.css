@@ -151,7 +151,7 @@
 .section-testimonials {
   display: grid;
   grid-template-columns: 55fr 45fr;
-  align-items: center;
+  align-items: end;
 }
 
 .testimonials-container {

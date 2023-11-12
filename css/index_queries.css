@@ -148,6 +148,9 @@
   .btn:link,
   .btn:visited {
   }
+  .testim {
+    transform: none;
+  }
 
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
