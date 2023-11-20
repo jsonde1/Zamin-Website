@@ -143,15 +143,14 @@
   color: #000;
   font-size: 2rem;
 }
-
 .btn:hover {
   background-color: #e2cd8e;
 }
 
 .section-testimonials {
-  display: grid;
+  width: 100%;
+  display: flex;
   grid-template-columns: 55fr 45fr;
-  align-items: end;
 }
 
 .testimonials-container {
@@ -183,8 +182,7 @@
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  width:50%;
   gap: 1.6rem;
   padding: 1.6rem;
 }
