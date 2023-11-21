@@ -150,7 +150,6 @@
 .section-testimonials {
   width: 100%;
   display: flex;
-  grid-template-columns: 55fr 45fr;
 }
 
 .testimonials-container {
@@ -182,9 +181,21 @@
 }
 
 .gallery {
-  width:50%;
+  width: 50%;
   gap: 1.6rem;
   padding: 1.6rem;
+}
+
+.gallery img {
+  max-height: 500px;
+  max-width: 500px;
+  height: auto;
+  width: auto;
+}
+.promo {
+  box-shadow: rgba(266, 205, 142, 0.4) -5px 5px,
+    rgba(266, 205, 142, 0.3) -10px 10px, rgba(266, 205, 142, 0.2) -15px 15px,
+    rgba(266, 205, 142, 0.1) -20px 20px, rgba(266, 205, 142, 0.05) -25px 25px;
 }
 
 .gallery-item {
