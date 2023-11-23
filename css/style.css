@@ -187,6 +187,7 @@
 
 .gallery {
   gap: 1.6rem;
+  align-self: center;
 }
 
 .gallery img {
