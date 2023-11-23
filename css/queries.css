@@ -126,7 +126,9 @@
     display: block;
     z-index: 9999;
   }
-
+  header {
+    z-index: 999;
+  }
   .main-nav {
     background-color: rgba(241, 232, 203, 0.97);
     position: absolute;

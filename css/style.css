@@ -71,7 +71,7 @@
   display: none;
 }
 
-.sticky .header {
+/*.sticky {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -79,9 +79,13 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.84);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+} */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .sticky .section-hero {
@@ -148,8 +152,9 @@
 }
 
 .section-testimonials {
-  width: 100%;
+  width: 86%;
   display: flex;
+  justify-content: space-between;
 }
 
 .testimonials-container {
@@ -181,9 +186,7 @@
 }
 
 .gallery {
-  width: 50%;
   gap: 1.6rem;
-  padding: 1.6rem;
 }
 
 .gallery img {
@@ -191,6 +194,7 @@
   max-width: 500px;
   height: auto;
   width: auto;
+  margin: 0 auto;
 }
 .promo {
   box-shadow: rgba(266, 205, 142, 0.4) -5px 5px,
